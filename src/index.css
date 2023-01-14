@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+      @apply p-4 
+  }
+
+  button {
+      @apply border border-black rounded-xl px-5 bg-pink-200 py-1
+      hover:bg-transparent text-gray-800 
+    }
+    /* text-white border bg-indigo-600 border-indigo-600  */
+  
+  h1 {
+    @apply text-3xl md:text-4xl font-bold
+  }
+
+  h2 {
+    @apply text-3xl font-bold
+  }
+
+  h3 {
+    @apply text-xl font-bold
+  }
+
+  
+}
